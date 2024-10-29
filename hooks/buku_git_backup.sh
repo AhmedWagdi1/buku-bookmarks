@@ -11,6 +11,6 @@ if [[ `git status --porcelain` ]]; then
     git add .
     git commit -m "Auto-commit from Buku command: $(date)"
     # Optional: Uncomment the line below if you have a remote repository
-    # git push origin main
+    git push origin main
 fi
 
